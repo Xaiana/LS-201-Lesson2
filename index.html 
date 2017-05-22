@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>My Profile</title>
+    <meta charset="utf-8"/>
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        color: #eeeeee;
+        background-color: #01304b;
+      }
+
+      a {
+        color: #c3b802
+      }
+
+      li {
+        padding-bottom: 10px;
+      }
+
+      img {
+        display: block;
+        width: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Melissa Keith</h1>
+
+    <figure>
+      <img src="assets/profilepic.jpg" alt="Profile picture"/>
+      <figcaption>Profile picture</figcaption>
+    </figure>
+
+    <h2>Front-end developer</h2>
+
+    <p><strong>GitHub profile:</strong> <a href="https://github.com/Xaiana" target="_blank">Melissa Keith</a></p>
+
+    <h3>My Top 5 Links</h3>
+
+    <ol>
+      <li>
+        <a href="https://www.mysociety.org/research/research-strategy/#research-framework" target="_blank">Kind of company I would like to work for</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q" target="_blank">Favorite youtube tutor</a>
+      </li>
+      <li>
+        <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x" target="_blank">Harvard's Introdution to Computer Science</a>
+      </li>
+      <li>
+        <a href="http://www.hackoregon.org/" target="_blank">Favorite non-profit</a>
+      </li>
+      <li>
+        <a href="https://www.tinkercad.com/" target="_blank">3D is Fun</a>
+      </li>
+    </ol>
+
+  </body>
+</html>
