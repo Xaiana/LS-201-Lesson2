@@ -1,0 +1,35 @@
+/*Set the font size on all paragraphs to 18px.*/
+p {
+  font-size: 18px;
+}
+
+/*Set a bottom border on all list items to 1px solid #0066cc.*/
+li {
+  border-bottom: 1p solid #0066cc;
+}
+
+/*Change the selector - don't add new CSS - for the previous problem to remove the underline from beneath the list items in the header.*/
+main li {
+  border-bottom: 1p solid #0066cc;
+}
+
+/*Set the font family on paragraphs within article elements to sans-serif*/
+article p {
+  font-family: sans-serif;
+}
+
+/*Add the background color #e0e0e0 to the class subheading.*/
+.subheading {
+  background: #e0e0e0;
+}
+
+/*Underline the text on the element with ID "intro". Set its font size to 20px*/
+#intro {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+/*Override the border-bottom style on main content list items within unordered lists to be dotted.*/
+main ul li {
+  border-bottom-style: dotted; 
+}
